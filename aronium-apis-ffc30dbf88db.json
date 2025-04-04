@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aronium-apis",
+  "private_key_id": "ffc30dbf88db12e066cace02f15613a67934d5d5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQOT1YCpvahcMl\nq2Vpdv0QO1LqBBm1P5wGJ1Iuox0J6q9PyUYlVjwavVoYEO5lSzTaLGbwjM+/33g4\n1jumDeecZXZwLEgOer5CSfVC1qW9qbOgRz6i5JbEgM+dU7v7yiwi7oxdmifZ+pnp\nLJYt33fIEARoF+Dvm5kVpXc98TP2KMqoQl+ho79oAQrzwoFHAOGfpuRUC1Hw+ecJ\nA4mCPO7s8BRLtY98AGNgblfAh0/ysfzLzGKK8sB/etKByApiKyszaWkkW9iFi8JI\nMJa2DTBjoapaPeEjrByNAADuUV8nJUMHRCayNsuCIwFv42CKT1Obxd8q3aEOYElY\nt+wlDNqbAgMBAAECggEANVW1pdVmhY1p+YhE3JewRkxqATi6+Rgo7u2jqrOPjZdI\ndc0NL8mQOKNFqhi40KTbSsOY3eR0/5P4tawkKuiBeojbH+iATTp/GayYErumV1lm\noCM4uqymRM0N+jR5FEhTwidNqV/U1Puj52Mhtp0pgsbJmmUaPgHgvuyOCE4m1ST6\nWMcl9ZJcxlIeHRt47/XQj2IzWUUrM7TvLc7zfF0sMxDLUh+QS3ZsjhEMSKdQut8k\nincX5rp1uPrTqTI/AT+KP2ICVujli6J6eMYoARRiNxIpFGhKUMQQIdGLmi4nHKPS\nmaWmUgkQb+2R6zT3/hlGnMAyB1KJ1Jg/GFkFAwOpIQKBgQDK54qU0R01gvEcYSN7\n3m30LXwnbzDvYLM9+s0XMBdm8ggyy4htOlFreDXp1o+qQl4FxtZRdJs9gGrWTZO2\nfR3pSwospkeAJvEcSkbZ2DqGL0xqW+O/A0gbzlyCLbAZ1HBAvzD8D6r0u4L+Ct3S\ngcf7bfZonM2s+1I5E7qlY9c4jwKBgQC19rL9K52gEcaUSkU3OoiHOkgdp6AoaqvH\nfVpjf3mluPDwjbVeTkmxLGWdAYw65Zur4Th16/BfLFmUehwobHCjOTzzz4w/0OSx\nR+NkUOk8BOGFuSFRpeEZZkYQDqY+JzMYMcN7K0cR9ZZRd3R5AIeh+GrgOvK+46te\nN3e/jPALNQKBgQCHlNB1QIZUC3sxi3c6fhba4snjT9lTGzqqX7xLkkcQ8wmnZ3ly\nA1YEif78kfLNwisxkPwE0fYp0nWRXaUme9RQ32OdEj8U0vCqBrfxORtiLpjROTWl\nnXvBmNMX6Y+SsvGPUjJZO97wSZvuRTSURURsLb5JiP2maQk4OoatnVli4QKBgC0f\nrGtT8ZbMUa5cbKWxgkHmlhOkifb73PVvhIbACe6q2jUNLzjfuS6Sj/BLffbtEZmi\nFFpJ1CYF3YEQdwMfQR95BkB/64u3xb6g0ScDWZNksnhy3Gxe8l9WGXHJ8DfhiK4r\nSQq2RL2TZV92fA+1rezgqcBJXgEwfEK1BqEd1jkxAoGAXrBeBQWBb2mGSZazPVXg\nn5+cTkCIRMxgtqqrlT/ebE6IAy9qwY5xfcyCBME26PplXSJwdEWvvQZf9PEWD6Ot\n4Z9i93DPyX7yP3vo3eYvgYxOO4GV6DS5lFTKi2pFUhaTYmnT0OxzLb1vRvquehhD\nK/iDBJJZi7rClCknB4Xa95o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "script@aronium-apis.iam.gserviceaccount.com",
+  "client_id": "112835808936045246861",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/script%40aronium-apis.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

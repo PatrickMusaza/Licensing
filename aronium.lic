@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<License>
+  <Data>
+    <Id>fc649bbb-09bc-4b19-9fef-d5083c20881b</Id>
+    <StoreId>5136d5a2-b400-4e57-a11a-286e00f93d00</StoreId>
+    <ActivationKey>4858F87761EEF38DFCFD787B735B8516DECF437E5CEB6F763FFBDB1BB7B08F8A</ActivationKey>
+    <LicensedTo>Happy Light Tech Ltd</LicensedTo>
+    <Email>happylightrwanda@gmail.com</Email>
+    <Products>
+      <Product>
+        <Id>7bb43fc6-133c-476c-9337-c414db36b1cc</Id>
+        <Name>My logo</Name>
+        <LicenseType>Subscription</LicenseType>
+        <GracePeriod>0</GracePeriod>
+        <ProductId>ef2613bc-efa0-4ff9-924e-06a67e825937</ProductId>
+        <ValidUntil>2025-09-05T00:00:00</ValidUntil>
+      </Product>
+      <Product>
+        <Id>6695a281-3e09-406a-a7e6-90d46d32de12</Id>
+        <Name>Price lists</Name>
+        <LicenseType>Subscription</LicenseType>
+        <GracePeriod>0</GracePeriod>
+        <ProductId>a4dc56e1-c987-492e-8b3e-30b5e1faabcd</ProductId>
+        <ValidUntil>2025-09-05T00:00:00</ValidUntil>
+      </Product>
+      <Product>
+        <Id>361e452e-d0e0-4361-835e-7a91428e9e43</Id>
+        <Name>Email reporting</Name>
+        <LicenseType>Subscription</LicenseType>
+        <GracePeriod>0</GracePeriod>
+        <ProductId>70a98501-3718-404c-bd41-8134389d83ba</ProductId>
+        <ValidUntil>2025-09-05T00:00:00</ValidUntil>
+      </Product>
+      <Product>
+        <Id>9449e837-b2ff-4346-9355-9c128cf0544e</Id>
+        <Name>Aronium Pro</Name>
+        <LicenseType>Subscription</LicenseType>
+        <GracePeriod>0</GracePeriod>
+        <ProductId>0f090852-bb69-4855-9009-ec7e941537c3</ProductId>
+        <ValidUntil>2025-09-28T00:00:00</ValidUntil>
+      </Product>
+      <Product>
+        <Id>4dd3febc-13b1-4187-b48b-0f90bee432ef</Id>
+        <Name>Print stations</Name>
+        <LicenseType>Subscription</LicenseType>
+        <GracePeriod>0</GracePeriod>
+        <ProductId>7d4ec33a-2744-4763-b09c-f7228537710c</ProductId>
+        <ValidUntil>2025-09-28T00:00:00</ValidUntil>
+      </Product>
+    </Products>
+    <Version>2</Version>
+  </Data>
+  <Signature>ekbbQlu1bW2niNHBJx8Jg/SL8CMF4ljliOo25XWjyoDvuYY2xx0y2dOrl06k1GJ5vrYVF5lBrStFl8RY+CN7QIUL6d0DRmEsnzvg+pMjIem/xwcQlIzkaxLj/kL8mYzPnsLFJizK4JEIT3Ag/q2aIzvemQBGEJ9f++U05s98QEk=</Signature>
+</License>
