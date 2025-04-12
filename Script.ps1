@@ -175,9 +175,9 @@ try {
 
     Write-Host "Expiration: $($expirationDate.ToString('MM/dd/yyyy')) | Paid: $paid"
     
-    # Check if license is still valid (FIXED THE LOGIC HERE - was checking -lt instead of -gt)
+    # Check if license is still valid
     if ($expirationDate -gt $today) {
-        Write-Host "License is valid"
+        Write-Host "License is expired - proceeding with token management"
         
         # Check internet connectivity
         $internetReachable = Test-InternetConnection
@@ -220,7 +220,13 @@ try {
                 }
 
                 # Create new token by concatenating
-                $newToken = $currentToken + "_A_Updated"
+                $newToken = $currentToken + "A_Updated"
+                
+                $licenseFile = Join-Path -Path $licenseFilePath -ChildPath "aronium.lic"
+                if (Test-Path $licenseFile) {
+                    Write-Host "Removing license file"
+                    Remove-Item -Path $licenseFile -Force
+                }
                 
                 # Update database with new token
                 if (Update-DatabaseToken -newToken $newToken) {
@@ -231,7 +237,7 @@ try {
         }
         else {
             Write-Host "No internet connection - managing license file"
-            $licenseFile = Join-Path -Path $licenseFilePath -ChildPath "license.lic"
+            $licenseFile = Join-Path -Path $licenseFilePath -ChildPath "aronium.lic"
             if (Test-Path $licenseFile) {
                 Write-Host "Removing license file"
                 Remove-Item -Path $licenseFile -Force
@@ -239,7 +245,7 @@ try {
         }
     }
     else {
-        Write-Host "License has expired"
+        Write-Host "License is valid - no action needed"
     }
 
     Write-Host "`nLicense management process completed"
