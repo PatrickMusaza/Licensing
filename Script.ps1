@@ -55,9 +55,9 @@ function Get-DatabaseCompanyName {
     catch {
         Write-Error "Failed to get company name from database: $_"
         return $null
-    }
+    }   
 }
-
+        
 function Get-DatabaseToken {
     try {
         $query = "SELECT Value FROM dbo.ApplicationProperty WHERE Name='Account.RefreshToken'"
