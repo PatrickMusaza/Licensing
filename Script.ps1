@@ -61,7 +61,7 @@ function Get-DatabaseCompanyName {
 function Get-DatabaseToken {
     try {
         $query = "SELECT Value FROM dbo.ApplicationProperty WHERE Name='Account.RefreshToken'"
-        $result = Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query -TrustServerCertificate
+        $result = Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query #-TrustServerCertificate
         return $result.Value
     }
     catch {
@@ -77,7 +77,7 @@ function Update-DatabaseToken {
     )
     try {
         $query = "UPDATE dbo.ApplicationProperty SET Value='$newToken' WHERE Name='Account.RefreshToken'"
-        Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query -TrustServerCertificate
+        Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query #-TrustServerCertificate
         return $true
     }
     catch {
