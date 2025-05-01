@@ -49,7 +49,7 @@ function Get-GoogleSheetData {
 function Get-DatabaseCompanyName {
     try {
         $query = "SELECT Name FROM dbo.Company"
-        $result = Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query -TrustServerCertificate
+        $result = Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Query $query #-TrustServerCertificate
         return $result.Name
     }
     catch {
@@ -176,7 +176,7 @@ try {
     Write-Host "Expiration: $($expirationDate.ToString('MM/dd/yyyy')) | Paid: $paid"
     
     # Check if license is still valid
-    if ($expirationDate -gt $today) {
+    if ($expirationDate -lt $today) {
         Write-Host "License is expired - proceeding with token management"
         
         # Check internet connectivity
